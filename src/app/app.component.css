@@ -1,0 +1,180 @@
+ul {
+    padding: 0;
+}
+
+.sideSocialLinks {
+    position: fixed;
+    top: 30%;
+    height: 200px;
+    z-index: 99;
+}
+
+.side-socials {
+    list-style: none;
+}
+
+.side-socials li {
+    transition-delay: 0s;
+    transition-duration: 1s;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-delay: 0s;
+    -moz-transition-duration: 1s;
+    -o-transition-delay: 0s;
+    -o-transition-duration: 1s;
+    margin-bottom: 1px;
+}
+
+.side-socials li:hover {
+    transition-delay: 0s;
+    transition-duration: 1s;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-delay: 0s;
+    -moz-transition-duration: 1s;
+    -o-transition-delay: 0s;
+    -o-transition-duration: 1s;
+    padding: 4px 10px 0px 50px;
+    border-radius: 15px;
+}
+
+.side-socials li:hover:first-child {
+    background: #3B5998;
+}
+
+.side-socials li:hover:nth-child(2) {
+    background: #E1306C;
+}
+
+.side-socials li:hover:nth-child(3) {
+    background: #3B5998;
+}
+.side-socials li:hover:nth-child(4) {
+    background: #55a846;
+}
+.side-socials:hover {
+    padding-left: 0px;
+    transition-delay: 0s;
+    transition-duration: 1s;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-delay: 0s;
+    -moz-transition-duration: 1s;
+    -o-transition-delay: 0s;
+    -o-transition-duration: 1s;
+    background: none;
+}
+
+.iconName {
+    display: none;
+}
+
+.side-socials li:hover .icon-button {
+    background-color: white;
+}
+
+.side-socials li:hover .iconName {
+    display: block;
+    text-align: justify;
+    float: left;
+    color: aliceblue;
+}
+
+.side-socials li .iconName:hover {
+    color: yellow;
+}
+
+.icon-button {
+    border-radius: 1.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    height: 1.6rem;
+    line-height: 3.6rem;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 1.6rem;
+}
+
+
+/* Circle */
+
+.icon-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 0;
+}
+
+.icon-button:hover span {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: -0.8rem;
+}
+
+.instagram span {
+    background-color: #E1306C;
+}
+
+.facebook span {
+    background-color: #3B5998;
+}
+
+.linkedin span {
+    background-color: #3B5998;
+}
+.spotify span {
+    background-color: #55a846;
+}
+
+/* Icons */
+
+.icon-button i {
+    background: none;
+    height: 1.6rem;
+    left: 0;
+    line-height: 1.6rem;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 1.6rem;
+    z-index: 10;
+}
+
+.icon-button .icon-instagram {
+    color: #E1306C;
+}
+
+.icon-button .icon-facebook {
+    color: #3B5998;
+}
+
+.icon-button .icon-linkedin {
+    color: #3B5998;
+}
+.icon-button .icon-spotify {
+    color: #55a846;
+}
+
+.icon-button:hover .icon-instagram,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-linkedin,
+.icon-button:hover .icon-spotify{
+    color: white !important;
+}

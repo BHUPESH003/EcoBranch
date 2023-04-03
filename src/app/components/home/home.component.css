@@ -1,0 +1,458 @@
+.slider {
+    position: relative;
+}
+
+#slider {
+    position: relative;
+    overflow: hidden;
+    width: 100% !important;
+}
+
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    width: 99999px;
+    overflow: hidden;
+    list-style: none;
+}
+
+#slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 600px;
+    text-align: center;
+}
+
+#slider ul li .slide {
+    background-size: cover;
+    height: 600px;
+}
+
+
+.slider1 {
+    position: relative;
+}
+
+#slider1 {
+    position: relative;
+    overflow: hidden;
+    width: 100% !important;
+}
+
+#slider1 ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 99999px;
+    overflow: hidden;
+    list-style: none;
+}
+
+#slider1 ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 500px;
+    text-align: center;
+}
+
+#slider1 ul li .slide {
+    background-size: cover;
+    height: 500px;
+}
+
+.slider2 {
+    position: relative;
+}
+
+#slider2 {
+    position: relative;
+    overflow: hidden;
+    width: 100% !important;
+}
+
+#slider2 ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 99999px;
+    overflow: hidden;
+    list-style: none;
+}
+
+#slider2 ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 500px;
+    text-align: center;
+}
+
+#slider2 ul li .slide {
+    background-size: cover;
+    height: 500px;
+}
+
+button.control_prev,
+button.control_next {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    display: block;
+    border: none;
+    width: 2em;
+    height: 2em;
+    line-height: 1.9em;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2rem;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+button.control_prev:focus,
+button.control_next:focus {
+    outline: none;
+    border: 1px rgba(255, 255, 255, 0.5) solid;
+}
+
+button.control_prev:hover,
+button.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+}
+
+button.control_prev {
+    left: 2rem;
+}
+
+button.control_next {
+    right: 2rem;
+}
+
+.progress {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    height: 0.5rem;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px rgba(0, 0, 0, 0.15) solid;
+}
+
+.progress .bar {
+    height: 100%;
+    width: 0%;
+    background: #fff;
+}
+
+.teaser {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    transform: translateY(-50%);
+}
+
+.teaser h2 {
+    font-size: 5em;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+.teaser p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    border-top: 2px #fff solid;
+    width: 33%;
+    min-width: 25rem;
+    margin: 0rem auto;
+    padding: 1.5rem 0;
+}
+
+.teaser h3 {
+    border-bottom: 2px #fff solid;
+    width: 33%;
+    padding: 1.5rem 0;
+    margin: 0rem auto;
+    min-width: 25rem;
+}
+
+.teaser a {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.nav-link {
+    outline: none !important;
+    color: black !important;
+    border: none !important;
+}
+
+.nav-link:hover {
+    background-color: #32e9a2;
+    border: none !important;
+}
+
+.nav-link.active {
+    border: none !important;
+    background-color: #32e9a2;
+}
+
+.home_tab_items {
+    position: relative;
+    margin: auto;
+}
+
+.slider-box img {
+    height: 31px;
+    margin-bottom: 4px;
+}
+
+.item {
+    padding: 10px 0px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+
+    outline: none !important;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: transparent !important;
+}
+
+.nav-tabs .nav-item:focus-visible {
+    margin-bottom: -1px;
+    outline: none !important;
+}
+
+.nav-tabs .nav-item {
+    border-right: 0.1px solid #d5d5d5;
+    min-width: 125px;
+}
+
+.new-active {
+    color: black;
+}
+
+.img-center {
+    display: flex;
+    align-items: center;
+}
+
+.Retail .retail_list {
+    margin: 20px 0 0;
+}
+
+.retail_list li {
+    margin-bottom: 20px;
+}
+
+.retail_list li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.retail_list li img {
+    height: 32px;
+    object-fit: contain;
+    width: 50px !important;
+    vertical-align: middle;
+    /* float: none; */
+    padding: 0px 15px 0 0;
+}
+
+.htc__reasons {
+    background-color: #59b232;
+    ;
+    /* border-radius: 474px 387px 2px 2px; */
+    border-radius: 300px 0px;
+}
+
+.section__title {
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+
+.reason_text p {
+    color: white;
+}
+
+/* ////////// */
+/* .section__title p{
+    color: white;
+} */
+.section-team {
+    font-family: "Poppins", sans-serif;
+    padding: 80px 0;
+}
+
+.section-team .header-section {
+    margin-bottom: 50px;
+}
+
+.section-team .header-section .small-title {
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3e64ff;
+}
+
+.section-team .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section-team .single-person {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #f6f9ff;
+    border-radius: 5px;
+}
+
+.section-team .single-person:hover {
+    background: linear-gradient(to right, #59b232, #293546);
+}
+
+.section-team .single-person .person-image {
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 4px dashed transparent;
+    transition: padding .3s;
+}
+
+.section-team .single-person:hover .person-image {
+    padding: 12px;
+    border: 4px dashed #fff;
+}
+
+.section-team .single-person .person-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.section-team .single-person .person-image .icon {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: linear-gradient(to right, #59b232, #293546);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.section-team .single-person:hover .person-image .icon {
+    background: none;
+    background-color: #fff;
+    color: #59b232;
+}
+
+.section-team .single-person .person-info .full-name {
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.section-team .single-person .person-info .speciality {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #49423d;
+}
+
+.section-team .single-person:hover .full-name,
+.section-team .single-person:hover .speciality {
+    color: #fff;
+}
+
+
+/* Sustainabilty */
+.sustainable {
+    position: relative;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sustainability {
+    border-radius: 300px;
+    width: auto;
+    position: relative;
+    background-color: #59b232;
+    overflow: hidden;
+    margin-top: 0px;
+    padding: 80px 0;
+}
+.sustainability .sus-header .para {
+    text-align: left;
+    font-weight: 400;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 0;
+    width: 78%;
+}
+.para-read {
+    margin: 12px 0;
+}
+.leaf-green-right {
+    position: absolute;
+    z-index: 99;
+    height: 765px!important;
+    margin-top: 0;
+    margin-left: 0;
+    overflow: hidden;
+    top: 202px!important;
+    right: -458px!important;
+}
+.leaf-blue-left {
+    position: absolute;
+    z-index: 9;
+    height: 549%!important;
+    left: -646px!important;
+    overflow: hidden;
+    top: -252px!important;
+    transform: rotate( 5deg )!important;
+}
+.matric-tone-right-leaf {
+    position: absolute;
+    right: -433px!important;
+    height: 738px;
+    top: -293px!important;
+}

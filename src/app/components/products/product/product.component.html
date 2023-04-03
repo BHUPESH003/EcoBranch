@@ -1,0 +1,155 @@
+<div class="wrapper">
+    <div class="ht__bradcaump__area" data--black__overlay="6"
+        style="background: rgba(0, 0, 0, 0) url(../../../assets/images/bg/carry.jpeg) no-repeat scroll center center / cover ;">
+        <div class="ht__bradcaump__wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="bradcaump__inner text-center">
+                            <h2 class="bradcaump-title">{{product.nameDescription}}</h2>
+                            <nav class="bradcaump-inner">
+                                <a class="breadcrumb-item" routerLink="">Home</a>
+                                <span class="brd-separetor">-</span>
+                                <span class="breadcrumb-item active">{{product.name}}</span>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Bradcaump area -->
+    <!-- Start Blog Area -->
+    <section class="htc__project__details__page ptb--150 bg__white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-xl-8 col-md-12 col-12">
+                    <div class="htc__single__service">
+                        <div class="htc__single__service__tab">
+                            <div class="ht-portfolio-pic-show">
+                                <div class="ht-portfolio-full-image tab-content">
+                                        <div role="tabpanel" [class.active]="i==0" class="tab-pane fade show active" *ngFor="let pics of product.images, let i=index"
+                                            id="img-tab-{{i}}">
+                                            <img src="{{pics}}" alt="full-image">
+                                        </div>
+                                </div>
+                            </div>
+                            <!-- Start Small images -->
+                            <div class="ht__service__small__image nav nav-tabs clearfix">
+                                <ul role="tablist" class="prodict-det-small nav  clearfix">
+                                    <li role="presentation" class="pot-small-img"
+                                        *ngFor="let pics of product.images, let i=index">
+                                        <a [class.active]="i==0" href="#img-tab-{{i}}" role="tab"
+                                            data-toggle="tab">
+                                            <img src="{{pics}}" alt="small-image">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Small images -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-4 col-md-12 col-12">
+                    <div class="single__project__rightsidebar">
+                        <!-- Start Single Item -->
+                        <div class="pro__dtl__inner bg__gray">
+                            <h2>PROJECT DETAILS</h2>
+                            <div class="pro__dtl__content">
+                                <ul class="pro__dtl__list font__bold">
+                                    <li *ngFor="let item of product.details">{{item.key}}</li>
+                                </ul>
+                                <ul class="pro__dtl__list">
+                                    <li *ngFor="let item of product.details">{{item.value}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Start Single Item -->
+
+                        <!-- End Single Item -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="htc__pro__desc__container">
+                        <!-- start Single Details -->
+                        <div class="single__project__details">
+                            <h2>About</h2>
+                            <p>{{product.about.info}}
+                            </p>
+                            <ul class="facts__list">
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i><b>Packaging:</b>
+                                    {{product.about.packaging}} </a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i><b>Delivery:</b>
+                                    {{product.about.delivery}} </a></li>
+
+
+                            </ul>
+                        </div>
+                        <!-- End Single Details -->
+                        <!-- start Single Details -->
+                        <div class="single__project__details">
+                            <h2>Description</h2>
+                            <p>{{product.description.info}}
+                            </p>
+                            <p>{{product.description.points.description}}</p>
+                            <ul class="facts__list">
+                                <li *ngFor="let opt of product.description.points.options"><p ><i class="fa fa-angle-double-right"></i>{{opt}}</p></li>
+                                <!-- <li><a href="#"><i class="fa fa-angle-double-right"></i>HORECA</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Healthcare</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Institutional Cafeterias</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Municipal Corporation</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Residential and Office
+                                        Spaces</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Event Management</a></li> -->
+
+                            </ul>
+                        </div>
+                        <!-- End Single Details -->
+                        <!-- start Single Details -->
+                        <div class="single__project__details">
+                            <h2>IMPORTANT FACTS</h2>
+
+                            <ul class="facts__list">
+                                <li *ngFor="let fact of product.facts"><p><i class="fa fa-angle-double-right"></i>{{fact}}</p></li>
+                                <!-- <li><a href="#"><i class="fa fa-angle-double-right"></i>Tear resistance and protection
+                                        against leakage</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Available in roll form and
+                                        individual bags</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Strong and elastic</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Breathability</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Available in a wide selection of
+                                        designs</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Durable, longer life</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Product inputs free of GMO
+                                        material</a></li> -->
+                            </ul>
+                        </div>
+                        <!-- End Single Details -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br> <br> <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="brand__list">
+                        <li><a href="#"><img src="../../../assets/images/brand/11.jpeg" alt="brand images"></a></li>
+                        <li><a href="#"><img src="../../../assets/images/brand/12.jpeg" alt="brand images"></a></li>
+                        <li><a href="#"><img src="../../../assets/images/brand/13.jpeg" alt="brand images"></a></li>
+                        <li><a href="#"><img src="../../../assets/images/brand/14.jpeg" alt="brand images"></a></li>
+                        <li><a href="#"><img src="../../../assets/images/brand/15.jpeg" alt="brand images"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+</div>

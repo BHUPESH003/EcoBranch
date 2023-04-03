@@ -1,0 +1,76 @@
+
+.aboutus_background{
+    background-color: #edf9d3;
+    border-radius: 0 200px 200px 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+}
+.aboutus_banner{
+    border-radius: 200px 0px;
+    background: transparent;
+    position: relative;
+    top: 50px;
+    background-image: url(../../../assets/images/home_tab/pngtree-vector-illustration-of-natural-green-abstract-background-free-graphics-pngtree-image_738102.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutus{
+    z-index: 2;
+    position: relative;
+}
+.aboutus_contactbtn{
+    margin-bottom: 150px;
+    padding: 10px;
+}
+.htc__btn_contact{
+    background: #59b232 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 25px;
+    transition: 0.5s;
+    border: 1px solid #59b232;
+}
+
+/*  */
+.we-are-one {
+    position: relative;
+    background-color: #1980db;
+    padding: 50px;
+}
+.about-us-we-are-one-leaf {
+    position: absolute;
+    height: 426px;
+    width: 217px;
+    overflow: hidden;
+    left: 0px;
+}
+.about-page-row-content {
+    width: 397px;
+}
+
+.para {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #212529;
+    margin: 15px 0 0 0;
+}
+.about-page-img img, .about-page-row-reverse img {
+    margin-top: 45px;
+    position: relative;
+    z-index: 9;
+}
+#mobile-img-be{
+    margin: auto;
+    position: relative;
+}
+.about_us_tab{
+    padding: 50px;
+}

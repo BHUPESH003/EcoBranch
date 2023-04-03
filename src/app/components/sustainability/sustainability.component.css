@@ -1,0 +1,70 @@
+.sustainability-content {
+    padding: 83px 130px;
+    position: relative;
+    background-color: #59b232;
+}
+.about-us-we-are-one-leaf {
+    position: absolute;
+    height: 426px;
+    width: 217px;
+    overflow: hidden;
+    left: 0px;
+}
+.sustainbility-left-bottom-left-box {
+    position: absolute;
+    height: 445px;
+    width: 335px;
+    left: 0px;
+    overflow: hidden;
+    bottom: 244px;
+}
+.sustainbility-right-bottom-leaf-box {
+    position: absolute;
+    height: 615px;
+    width: 315px;
+    right: 0px;
+    overflow: hidden;
+    bottom: 0px;
+}
+.sustainbility-right-bottom-top-left {
+    width: 130%;
+    transform: rotate(-75deg);
+    position: absolute;
+    right: -135px;
+}
+.sustainbility-right-bottom-bottom-left {
+    width: 90%;
+    transform: rotate(-175deg);
+    margin: 239px 128px;
+}
+.sustainbility-right-leaf-box {
+    position: absolute;
+    height: 615px;
+    width: 315px;
+    right: 0px;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.sustainbility-right-top {
+    width: 100%;
+    transform: rotate(-78deg);
+    position: absolute;
+    right: -100px;
+}
+.sustainbility-right-top-bottom {
+    width: 182%;
+    transform: rotate(175deg);
+    margin: 35px -45px;
+    opacity: .3;
+}
+.inner-sustainability {
+    width: auto !important;
+}
+.para {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #212529;
+    margin: 15px 0 0 0;
+    font-family: 'OpenSans-Light';
+}
